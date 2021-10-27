@@ -12,7 +12,7 @@ core() {
     exit 0
   fi
 
-  pm_npm remove -g tldr
+  pm::npm remove -g tldr
 }
 
 run() {
